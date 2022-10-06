@@ -1,0 +1,22 @@
+.grid_section {
+    padding: 5vh 8vw;
+    margin-top: 11vh;
+    background-color: rgb(233, 233, 233);
+    min-height: 100vh;
+}
+
+.animation-1 {
+    animation-name: slides-1;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+}
+
+    @keyframes slides-1 {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
